@@ -139,7 +139,6 @@ public class EmployeeBook {
 
         }
 
-
     // Сумма затрат на ЗП по отделу
     public static void findSumOfSalaryForMonth(Employee employee[], int department) {
         double sum = 0;

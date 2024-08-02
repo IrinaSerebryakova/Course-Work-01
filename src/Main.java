@@ -23,7 +23,6 @@ public class Main {
         employeeBook.findOpenSpace(employeeBook.getEmployees());
         Employee welder = new Employee("Мурзинов Павел Прокофьевич", 2, 150000.0);
         employeeBook.addNewEmployee(employeeBook.getEmployees(), welder);
-
         employeeBook.dataOfEmployee(employeeBook.getEmployees());
         employeeBook.dataOfEmployee(employeeBook.getEmployees(), 2);
         employeeBook.compareSalaryLessArgs(employeeBook.getEmployees(),150000.0);

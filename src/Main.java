@@ -9,7 +9,6 @@ public class Main {
         employeeBook.findSumOfSalaryForMonth(employeeBook.getEmployees());
         employeeBook.printFullNameOfEmployees(employeeBook.getEmployees());
 
-
         employeeBook.indexSalary(employeeBook.getEmployees(), 0.05);
         employeeBook.findEmployeeWithMinSalary(employeeBook.getEmployees(), 2);
         employeeBook.findEmployeeWithMaxSalary(employeeBook.getEmployees(), 2);
